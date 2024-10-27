@@ -11,6 +11,7 @@ CREATE TABLE Cursos(
     Nome VARCHAR2(200) NOT NULL,
     Descricao VARCHAR2(600) NOT NULL,
     Preco DECIMAL(6,2) NOT NULL,
+    Categoria VARCHAR2(100) NOT NULL,
     CONSTRAINT pk_Cursos PRIMARY KEY (CursoID)
 );
 
